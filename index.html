@@ -17,602 +17,664 @@
     ></script>
   </head>
   <body>
-    <nav class="top-navbar">
-      <i class="fas fa-bars"></i>
+    <nav>
+      <div class="top-navbar">
+        <div class="top-navbar-cont1">
+          <i class="fas fa-bars"></i>
+          <img
+            src="images/youtube-logo.svg"
+            alt="youtube-logo"
+            width="80px"
+            height="24px"
+          />
+          <span>PH</span>
+        </div>
 
-      <img
-        src="images/youtube-logo.svg"
-        alt="youtube-logo"
-        width="80px"
-        height="24px"
-      />
+        <div class="top-navbar-cont2">
+          <form action="#">
+            <input type="text" placeholder="Search" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <div class="microphone-cont">
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
 
-      <form action="#">
-        <input type="text" placeholder="Search" />
-        <button type="submit"><i class="fas fa-search"></i></button>
-      </form>
+        <div class="top-navbar-cont3">
+          <div class="icon-cont">
+            <i class="fas fa-video"></i>
+          </div>
 
-      <i class="fas fa-microphone"></i>
-      <i class="fas fa-video"></i>
-      <i class="fas fa-th"></i>
-      <i class="fas fa-bell"></i>
+          <div class="icon-cont">
+            <i class="fas fa-th"></i>
+          </div>
 
-      <img
-        src="images/avatar-bitmap.png"
-        alt="profile-pic"
-        width="32px"
-        height="32px"
-      />
+          <div class="icon-cont">
+            <i class="fas fa-bell"></i>
+          </div>
+
+          <div class="avatar-cont">
+            <img src="images/avatar-bitmap.jpg" alt="profile-pic" />
+          </div>
+        </div>
+      </div>
     </nav>
-    <section class="left-container">
-      <div class="video-cont">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/MBRqu0YOH14"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
 
-      <div class="title-cont">
-        <h1>Optimistic Nihilism</h1>
-        <div class="views-likes-cont">
-          <div class="views-cont">
-            <p>12,166,190 views</p>
-            <p>• 26 Jul 2017</p>
-          </div>
-          <div class="likes-cont">
-            <i class="fas fa-thumbs-up"></i>
-            <span>704K</span>
-            <i class="fas fa-thumbs-down"></i>
-            <span>12K</span>
-            <i class="fas fa-share"></i>
-            <span>SHARE</span>
-            <div class="save-icon">
-              <img src="images/save-icon.png" alt="save-icon">
+    <div class="content-container">
+      <section class="video-comment-section">
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/MBRqu0YOH14"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="title-cont">
+          <h1>Optimistic Nihilism</h1>
+          <div class="views-likes-cont">
+            <div class="views-cont">
+              <p>12,166,190 views</p>
+              <p>• 26 Jul 2017</p>
             </div>
-            <span>SAVE</span>
-            <i class="fas fa-ellipsis-h"></i>
+            <div class="likes-cont">
+              <div class="likes-cont-wrapper">
+                <i class="fas fa-thumbs-up"></i>
+                <span>704K</span>
+              </div>
+
+              <div class="likes-cont-wrapper">
+                <i class="fas fa-thumbs-down"></i>
+                <span>12K</span>
+              </div>
+
+              <div class="likes-cont-wrapper">
+                <i class="fas fa-share"></i>
+                <span>SHARE</span>
+              </div>
+
+              <div class="likes-cont-wrapper">
+                <img
+                  src="images/save-icon.png"
+                  alt="save-icon"
+                  class="save-icon"
+                />
+                <span>SAVE</span>
+              </div>
+              <div class="likes-cont-wrapper">
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="channel-cont">
-        <img
-          src="images/kurzg.jpg"
-          alt="kurzgesagt profile"
-          width="48px"
-          height="48px"
-        />
-        <h2>Kurzgesagt – In a Nutshell</h2>
-        <i class="fas fa-check-circle"></i>
-        <span>14.1M subscribers</span>
-        <button>SUBSCRIBE</button>
-        <i class="far fa-bell"></i>
-        <p>The philosophy of Kurzgesagt.</p>
-        <a href="#">SHOW MORE</a>
-      </div>
-
-      <div class="com-sort-cont">
-        <span>48,591 Comments</span>
-        <img src="images/sort-icon.png" alt="sort" />
-        <span>SORT BY</span>
-      </div>
-
-      <div class="comment-box">
-        <div class="cmmnt comment1">
-          <img src="images/kurzg.jpg" alt="kurzgesagt-pic" />
-          <i class="fas fa-thumbtack"></i>
-          <span>Pinned by Kurzgesagt – In a Nutshell</span>
-          <a href="#">Kurzgesagt – In a Nutshell</a>
-          <i class="fas fa-check-circle"></i>
-          <a href="#"> 2 years ago</a>
-          <span
-            >There's brand new stuff in the Kurzgesagt Merch Shop. Check it out
-            here: shop.kurzgesagt.org</span
-          >
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>3.5K</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+        <div class="channel-cont">
+          <div class="channel-cont-top">
+            <div class="channel-image-wrapper">
+              <img
+                src="images/kurzg.jpg"
+                alt="kurzgesagt profile"
+                width="48px"
+                height="48px"
+              />
+            </div>
+            <div class="channel-name-wrapper">
+              <h2>
+                Kurzgesagt – In a Nutshell <i class="fas fa-check-circle"></i>
+              </h2>
+              <p>14.1M subscribers</p>
+            </div>
+            <div class="channel-subscriber-wrapper">
+              <button>SUBSCRIBE</button>
+            </div>
           </div>
 
-          <a href="#" class="view-replies">View 77 replies</a>
+          <div class="channel-cont-bottom">
+            <p>The philosophy of Kurzgesagt.</p>
+            <a href="#">SHOW MORE</a>
+          </div>
         </div>
 
-        <div class="cmmnt comment2">
-          <img src="images/commenter1.jpg" alt="comment1" />
-          <span><strong>Commenter One</strong> 1 year ago</span>
-          <p>
-            Nihilism: Nothing matters <br /><br /><br />
-            Optimistic Nihilism: Since nothing matters, you're free to assign
-            value to whatever you want. So you don't have to feel like you've
-            wasted your life playing video games and reading comic books. It
-            made you happy. So it mattered. And if it mattered to you, you
-            mattered too. <br /><br />
-            Kurzgesagt just solved the existential crisis. Goddamn, I love those
-            birbs
-          </p>
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>25K</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+        <div class="com-sort-cont">
+          <span>48,591 Comments</span>
+          <div class="sort-wrapper">
+            <img src="images/sort.svg" alt="sort" />
+            <span><strong>SORT BY</strong> </span>
+          </div>
+        </div>
+
+        <div class="comment-box">
+          <div class="add-comment">
+            <div class="avatar-wrapper">
+              <img
+                src="images/avatar-bitmap.jpg"
+                alt="profilepic"
+                width="40px"
+                height="40px"
+              />
+            </div>
+
+            <input type="text" placeholder="Add a public comment..." />
           </div>
 
-          <a href="#" class="view-replies">View 277 replies</a>
-        </div>
+          <div class="cmmnt comment1">
+            <img src="images/kurzg.jpg" alt="kurzgesagt-pic" width="40px" />
+            <i class="fas fa-thumbtack"></i>
+            <span>Pinned by Kurzgesagt – In a Nutshell</span>
+            <a href="#">Kurzgesagt – In a Nutshell</a>
+            <i class="fas fa-check-circle"></i>
+            <a href="#"> 2 years ago</a>
+            <span
+              >There's brand new stuff in the Kurzgesagt Merch Shop. Check it
+              out here: shop.kurzgesagt.org</span
+            >
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>3.5K</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-        <div class="cmmnt comment3">
-          <img src="images/commenter2.jpg" alt="comment2" />
-          <span><strong>Commenter Two</strong> 1 month ago</span>
-          <p>
-            "It's not about winning. It's about fun."-Spongebob Squarepants.
-          </p>
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>632</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <a href="#" class="view-replies">View 77 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 12 replies</a>
-        </div>
+          <div class="cmmnt comment2">
+            <img src="images/commenter1.jpg" alt="comment1" />
+            <span><strong>Commenter One</strong> 1 year ago</span>
+            <p>
+              Nihilism: Nothing matters <br /><br /><br />
+              Optimistic Nihilism: Since nothing matters, you're free to assign
+              value to whatever you want. So you don't have to feel like you've
+              wasted your life playing video games and reading comic books. It
+              made you happy. So it mattered. And if it mattered to you, you
+              mattered too. <br /><br />
+              Kurzgesagt just solved the existential crisis. Goddamn, I love
+              those birbs
+            </p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>25K</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-        <div class="cmmnt comment4">
-          <img src="images/commenter3.jpg" alt="comment3" />
-          <span><strong>Commenter Three</strong> 2 months ago</span>
-          <p>
-            "It feels like the cruelest joke in existence has been played on us,
-            we became self-aware only to realize this story is not about us".
-            Omg man I never looked at it that way and I don't know exactly how
-            to feel about it.
-          </p>
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>72</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <a href="#" class="view-replies">View 277 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 2 replies</a>
-        </div>
+          <div class="cmmnt comment3">
+            <img src="images/commenter2.jpg" alt="comment2" />
+            <span><strong>Commenter Two</strong> 1 month ago</span>
+            <p>
+              "It's not about winning. It's about fun."-Spongebob Squarepants.
+            </p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>632</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-        <div class="cmmnt comment5">
-          <img src="images/commenter4.jpg" alt="commenter4" />
-          <span><strong>Commenter Four</strong> 4 months ago</span>
-          <p>
-            Shout out to those who discovered optimistic nihilism by themselves
-            . Lets rule this egg shaped cluster of water,dirt and rock.
-          </p>
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>572</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <a href="#" class="view-replies">View 12 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 22 replies</a>
-        </div>
+          <div class="cmmnt comment4">
+            <img src="images/commenter3.jpg" alt="comment3" />
+            <span><strong>Commenter Three</strong> 2 months ago</span>
+            <p>
+              "It feels like the cruelest joke in existence has been played on
+              us, we became self-aware only to realize this story is not about
+              us". Omg man I never looked at it that way and I don't know
+              exactly how to feel about it.
+            </p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>72</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-        <div class="cmmnt comment6">
-          <img
-            src="images/commenter5.jpg"
-            alt="comment5
+            <a href="#" class="view-replies">View 2 replies</a>
+          </div>
+
+          <div class="cmmnt comment5">
+            <img src="images/commenter4.jpg" alt="commenter4" />
+            <span><strong>Commenter Four</strong> 4 months ago</span>
+            <p>
+              Shout out to those who discovered optimistic nihilism by
+              themselves . Lets rule this egg shaped cluster of water,dirt and
+              rock.
+            </p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>572</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
+
+            <a href="#" class="view-replies">View 22 replies</a>
+          </div>
+
+          <div class="cmmnt comment6">
+            <img
+              src="images/commenter5.jpg"
+              alt="comment5
           "
-          />
-          <span><strong>Commenter Five</strong> 3 days ago</span>
-          <p>
-            I remember reading a comic where someone asked "what's the point of
-            doing anything if nothing matters?" and another character replied,
-            "what would be the point of doing nothing?" I think that's a pretty
-            good summary of this philosophy. Nothing matters in the end, so why
-            not use this time to be happy?
-          </p>
+            />
+            <span><strong>Commenter Five</strong> 3 days ago</span>
+            <p>
+              I remember reading a comic where someone asked "what's the point
+              of doing anything if nothing matters?" and another character
+              replied, "what would be the point of doing nothing?" I think
+              that's a pretty good summary of this philosophy. Nothing matters
+              in the end, so why not use this time to be happy?
+            </p>
 
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>772</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>772</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
+
+            <a href="#" class="view-replies">View 18 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 18 replies</a>
-        </div>
+          <div class="cmmnt comment7">
+            <img src="images/commenter6.jpg" alt="comment6" />
+            <span><strong>Commenter Six</strong> 3 months ago</span>
+            <p>This video is so powerful.</p>
 
-        <div class="cmmnt comment7">
-          <img src="images/commenter6.jpg" alt="comment6" />
-          <span><strong>Commenter Six</strong> 3 months ago</span>
-          <p>This video is so powerful.</p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>10k</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>10k</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <a href="#" class="view-replies">View 118 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 118 replies</a>
-        </div>
+          <div class="cmmnt comment8">
+            <img src="images/commenter7.jpg" alt="comment7" />
+            <span><strong>Commenter Seven</strong> 2 months ago</span>
+            <p>
+              Shout out to those who discovered optimistic nihilism by
+              themselves . Lets rule this egg shaped cluster of water,dirt and
+              rock.
+            </p>
 
-        <div class="cmmnt comment8">
-          <img src="images/commenter7.jpg" alt="comment7" />
-          <span><strong>Commenter Seven</strong> 2 months ago</span>
-          <p>
-            Shout out to those who discovered optimistic nihilism by themselves
-            . Lets rule this egg shaped cluster of water,dirt and rock.
-          </p>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>518</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
+            </div>
 
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>518</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
+            <a href="#" class="view-replies">View 14 replies</a>
           </div>
 
-          <a href="#" class="view-replies">View 14 replies</a>
-        </div>
+          <div class="cmmnt comment9">
+            <img src="images/commenter8.jpg" alt="comment8" />
+            <span><strong>Commenter Eight</strong> 2 weeks ago</span>
+            <p>
+              I'm an optimistic pessimist. I expect everything to go poorly so
+              if it does, I'm not surprised. But if it doesn't, I'm pleasantly
+              surprised.
+            </p>
 
-        <div class="cmmnt comment9">
-          <img src="images/commenter8.jpg" alt="comment8" />
-          <span><strong>Commenter Eight</strong> 2 weeks ago</span>
-          <p>
-            I'm an optimistic pessimist. I expect everything to go poorly so if
-            it does, I'm not surprised. But if it doesn't, I'm pleasantly
-            surprised.
-          </p>
-
-          <div class="like-reply-box">
-            <i class="fas fa-thumbs-up"></i>
-            <span>818</span>
-            <i class="fas fa-thumbs-down"></i>
-            <a href="#">REPLY</a>
-          </div>
-
-          <a href="#" class="view-replies">View 38 replies</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="recommendations">
-      <div class="rcmmnd reco1">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/WPPPFqsECz0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLARIIXpP90JnTf6KomeSAIPl0mpBg"
-            alt="vid1"
-          />
-
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+            <div class="like-reply-box">
+              <i class="fas fa-thumbs-up"></i>
+              <span>818</span>
+              <i class="fas fa-thumbs-down"></i>
+              <a href="#">REPLY</a>
             </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+            <a href="#" class="view-replies">View 38 replies</a>
           </div>
         </div>
+      </section>
 
-        <div class="thumbnail-text-cont">
-          <span> <strong>An Antidote to Dissatisfaction</strong></span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>8.7M views</span>
-          <span>1 year ago</span>
-        </div>
-      </div>
+      <section class="recommendations-section">
+        <div class="rcmmnd reco1">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/WPPPFqsECz0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLARIIXpP90JnTf6KomeSAIPl0mpBg"
+              alt="vid1"
+            />
 
-      <div class="rcmmnd reco2">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/n3Xv_g3g-mA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB2yIuh_tf7DVtxJwDhSwnh5yAQxw"
-            alt="vid2"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span> <strong>An Antidote to Dissatisfaction</strong></span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>8.7M views</span>
+            <span>1 year ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span><strong>Loneliness</strong> </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>16M views</span>
-          <span>2 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco2">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/n3Xv_g3g-mA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB2yIuh_tf7DVtxJwDhSwnh5yAQxw"
+              alt="vid2"
+            />
 
-      <div class="rcmmnd reco3">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/QOCaacO8wus/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAeN6JXyEOVboQ_dkVQbgGatB5hpA"
-            alt="vid3"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span><strong>Loneliness</strong> </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>16M views</span>
+            <span>2 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span><strong>What is Life? Is Death Real?</strong> </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>11M views</span>
-          <span>6 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco3">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/QOCaacO8wus/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAeN6JXyEOVboQ_dkVQbgGatB5hpA"
+              alt="vid3"
+            />
 
-      <div class="rcmmnd reco4">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/dGiQaabX3_o/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAtyhJ3tfWoqHr8J9t5YBFW4jaQvQ"
-            alt="vid4"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span><strong>What is Life? Is Death Real?</strong> </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>11M views</span>
+            <span>6 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span
-            ><strong> What Happened Before History? Human Origins </strong>
-          </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>16M views</span>
-          <span>4 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco4">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/dGiQaabX3_o/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAtyhJ3tfWoqHr8J9t5YBFW4jaQvQ"
+              alt="vid4"
+            />
 
-      <div class="rcmmnd reco5">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/czgOWmtGVGs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2OSauvzM2Gs-Tz0DkjPGCFem_nQ"
-            alt="vid5"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span
+              ><strong> What Happened Before History? Human Origins </strong>
+            </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>16M views</span>
+            <span>4 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span
-            ><strong> A New History for Humanity – The Human Era </strong>
-          </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>8.6M views</span>
-          <span>4 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco5">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/czgOWmtGVGs/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2OSauvzM2Gs-Tz0DkjPGCFem_nQ"
+              alt="vid5"
+            />
 
-      <div class="rcmmnd reco6">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/jAhjPd4uNFY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCSkH-nc0c7wT_yrwcr6JJJvGmEbg"
-            alt="vid6"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span
+              ><strong> A New History for Humanity – The Human Era </strong>
+            </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>8.6M views</span>
+            <span>4 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span
-            ><strong>
-              Genetic Engineering Will Change Everything Forever – CRISPR
-            </strong>
-          </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>20M views</span>
-          <span>4 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco6">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/jAhjPd4uNFY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCSkH-nc0c7wT_yrwcr6JJJvGmEbg"
+              alt="vid6"
+            />
 
-      <div class="rcmmnd reco7">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/hOfRN0KihOU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBiqqFgXkZwRjYQMtksAltlsiJqxQ"
-            alt="vid7"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span
+              ><strong>
+                Genetic Engineering Will Change Everything Forever – CRISPR
+              </strong>
+            </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>20M views</span>
+            <span>4 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span><strong> How Evolution works </strong> </span>
-          <span>Kurzgesagt – In a Nutshell</span>
-          <i class="fas fa-check-circle"></i>
-          <span>8.4M views</span>
-          <span>7 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco7">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/hOfRN0KihOU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBiqqFgXkZwRjYQMtksAltlsiJqxQ"
+              alt="vid7"
+            />
 
-      <div class="rcmmnd reco8">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/z-IR48Mb3W0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBrQvo1DBtlfj2ChUeaky_mWoNR_g"
-            alt="vid8"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span><strong> How Evolution works </strong> </span>
+            <span>Kurzgesagt – In a Nutshell</span>
+            <i class="fas fa-check-circle"></i>
+            <span>8.4M views</span>
+            <span>7 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span
-            ><strong> What is depression? - Helen M. Farrell </strong>
-          </span>
-          <span>TED-Ed</span>
-          <i class="fas fa-check-circle"></i>
-          <span>7M views</span>
-          <span>5 years ago</span>
-        </div>
-      </div>
+        <div class="rcmmnd reco8">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/z-IR48Mb3W0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBrQvo1DBtlfj2ChUeaky_mWoNR_g"
+              alt="vid8"
+            />
 
-      <div class="rcmmnd reco9">
-        <div class="thumbnail">
-          <img
-            src="https://i.ytimg.com/vi/7v-mfJMyBO0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAam0Z79IHn-MT3ENN4Ecy2sTY_BA"
-            alt="vid9"
-          />
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
 
-          <div class="thumbnail-hovered">
-            <div class="watch-later">
-              <i class="far fa-clock"></i>
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
             </div>
+          </div>
 
-            <div class="queue">
-              <img
-                src="images/add-to-queue-button.svg"
-                alt=""
-                width="16px"
-                height="15.5px"
-              />
-            </div>
-
-            <div class="dots-vertical">
-              <i class="fas fa-ellipsis-v"></i>
-            </div>
+          <div class="thumbnail-text-cont">
+            <span
+              ><strong> What is depression? - Helen M. Farrell </strong>
+            </span>
+            <span>TED-Ed</span>
+            <i class="fas fa-check-circle"></i>
+            <span>7M views</span>
+            <span>5 years ago</span>
           </div>
         </div>
 
-        <div class="thumbnail-text-cont">
-          <span
-            ><strong>Why should you read "The Handmaid's Tale"? - Naomi R. Mercer</strong>
-          </span>
-          <span>TED-Ed</span>
-          <i class="fas fa-check-circle"></i>
-          <span>1.5M views</span>
-          <span>2 years ago</span>
+        <div class="rcmmnd reco9">
+          <div class="thumbnail">
+            <img
+              src="https://i.ytimg.com/vi/7v-mfJMyBO0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAam0Z79IHn-MT3ENN4Ecy2sTY_BA"
+              alt="vid9"
+            />
+
+            <div class="thumbnail-hovered">
+              <div class="watch-later">
+                <i class="far fa-clock"></i>
+              </div>
+
+              <div class="queue">
+                <img
+                  src="images/add-to-queue-button.svg"
+                  alt=""
+                  width="16px"
+                  height="15.5px"
+                />
+              </div>
+
+              <div class="dots-vertical">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="thumbnail-text-cont">
+            <span
+              ><strong
+                >Why should you read "The Handmaid's Tale"? - Naomi R.
+                Mercer</strong
+              >
+            </span>
+            <span>TED-Ed</span>
+            <i class="fas fa-check-circle"></i>
+            <span>1.5M views</span>
+            <span>2 years ago</span>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>

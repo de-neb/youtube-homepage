@@ -42,7 +42,7 @@ a {
   justify-content: space-between;
   height: 40px;
   width: 185px;
-  padding-right: 25px;
+  padding-right: 50px;
 }
 
 .top-navbar-cont1 > i {
@@ -50,12 +50,26 @@ a {
   color: #606060;
 }
 
-.top-navbar-cont1 > img {
+.yt-logo-cont{
+  position: relative;
+}
+
+.yt-logo-cont > img {
   position: relative;
   left: 0;
-  margin: 8px 0;
+  margin: 6px 0;
   cursor: pointer;
 }
+
+.yt-logo-cont::after{
+  content: "PH";
+  position: absolute;
+  top: 0;
+  right: -13px;
+  font-size: 10px;
+  color: #606060;
+}
+
 .top-navbar-cont1 > span {
   position: relative;
   top: -10px;
@@ -69,6 +83,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding-left: 32px;
 }
 
 .search-bar-cont {
@@ -118,7 +133,7 @@ a {
   margin: 8px;
 }
 
-@media(max-width: 650px){
+@media (max-width: 650px) {
   .top-navbar-cont2 {
     display: none;
   }
@@ -160,8 +175,8 @@ a {
   object-fit: scale-down;
 }
 
-@media(min-width: 651px){
-  .hide-icon{
+@media (min-width: 651px) {
+  .hide-icon {
     display: none;
   }
 }
@@ -195,19 +210,19 @@ a {
 
 @media (max-width: 1025px) {
   .video-section {
-    grid-column: 2/4;
+    grid-column: 1/5;
     grid-row: 1/2;
   }
 
   .comment-section {
-    grid-column: 2/4;
+    grid-column: 1/5;
     grid-row: 4/5;
   }
 
   .recommendations-section {
-    grid-column: 2/4;
+    grid-column: 1/5;
     grid-row: 3/4;
-    margin:0 0 20px 0;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -253,6 +268,29 @@ a {
 .views-likes-cont p {
   margin: 0;
   display: inline;
+}
+
+.views-cont {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.views-cont-hide {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  .views-cont-hide {
+    display: block;
+    white-space: nowrap;
+  }
+  .views-cont-show {
+    display: none;
+  }
+  .content-container{
+    margin: 0 15px;
+  }
 }
 
 .likes-cont {
@@ -344,6 +382,7 @@ a {
   align-items: flex-end;
 }
 
+
 .sort-wrapper {
   margin-left: 30px;
   position: relative;
@@ -355,6 +394,7 @@ a {
   width: 20px;
   opacity: 0.5;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .sort-wrapper span {
@@ -405,7 +445,7 @@ a {
 }
 
 .avatar-wrapper {
-  width: 56px;
+  width: 46px;
   height: 42px;
   grid-column: 1/2;
   grid-row: 1/2;
@@ -602,7 +642,6 @@ a {
 
 /* replace later with avatar-wrapper */
 .cmmnt img {
-  clip-path: circle(50%);
   width: 40px;
 }
 
